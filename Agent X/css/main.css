@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.hidden
+{
+	display: none;
+}
+
+#me{
+
+width: 300px;
+display: block;
+margin: 0 auto;
+
+
+
+
+
+
+}
+
+.about_epic
+{
+ width: 600px;
+ 
+}
+
+#header
+ {
+   
+  animation: fadein 4s;
+}
+
+#header{
+
+	width: 50%;
+	display: block;
+margin: 0 auto;
+}
+
+ 
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+
+}
+
+
+p
+{
+	font-size: 1.5em;
+	color: #252525;
+	margin-left: 50px;
+	
+}
+
+@media screen and (max-width: 25em) {
+	
+	#container{
+	 display: none;
+ }
+ 
+ #contactarea
+ {
+	
+	
+	margin-top: 1px;
+	
+	
+}
+
+#contacttext 
+{
+	font-size: 12px;
+	margin-bottom: 1px;
+	width: 280px;
+	
+	
+}
+
+#contactform
+{
+	margin: 10px; 
+	
+}
+
+fieldset 
+{
+	border: none;
+	padding: 0px;
+}
+
+
+#comments
+{
+	width: 380px;
+	height: 200px;
+}
+
+#submit
+{
+	display: block;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	border: 1px solid #959595;
+	font-size: 14px;
+	
+}
+}
+
+@media screen and (min-width: 64em) {
+	
+	
+   
+   
+p
+{
+	font-size: 1.5em;
+	color: #fff;
+	margin-left: 20px;
+}
+
+
+}
+
+h1
+{
+	font-size: 1em;
+	color: blue;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1em;
+	color: blue;
+	text-align: center;
+}
+
+
+
+
+
+body 
+{
+	font-family: 'BenchNine', sans-serif, arial;
+	Background: black;
+  
+} 
+
+#team{
+	text-align: center;
+}
+
+#contactarea
+ {
+	
+	
+	margin-top: 1px;
+	margin-left: 100px;
+	
+}
+
+#contacttext 
+{
+	font-size: 18px;
+	margin: 10px;
+	width: 800px;
+	
+}
+
+#contactform
+{
+	margin: 10px; 
+}
+
+fieldset 
+{
+	border: none;
+	padding: 0px;
+}
+
+
+#comments
+{
+	width: 380px;
+	height: 200px;
+}
+
+#submit
+{
+	display: block;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	border: 1px solid #959595;
+	font-size: 14px;
+	
+}
+
+
+h1
+{
+	text-align: center;
+	font-size: 50px;
+}
+
+/* Main image gallery*/
+
+
+#info_container{
+	
+	position: absolute;
+	height: 338px;
+	width: 600px;
+	z-index: 2;
+	
+	
+	
+}
+
+
+
+
+
+#links 
+{
+	margin: 5px auto 0px;	
+	height: 50px;
+	
+	width: 600px;
+	
+	
+}
+
+#links ul 
+{
+	margin: 0 auto;
+	width: 600px;
+	padding: 0;
+	list-style-type: none;	
+	height: 50px;
+	text-align: center;
+}
+
+#links ul li 
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+#links ul li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px 5px 15px;
+	transition: all 0.5s ease;
+	border-radius: 15px;
+}
+
+#links ul li a:hover {
+	color: #fff;
+	background: #C6C6C6;	
+}
+
+
+
+#info_hover{
+	position: relative;
+    
+	width: 600px;
+	height: 338px;
+	
+	left: 190px;
+	top: 336px;
+	
+}
+
+
+
+
+
+
+.info {
+    position: relative;
+    display: inline-block;
+    
+}
+
+/* Tooltip text */
+.info .infotext {
+    visibility: hidden;
+    width: 140px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    
+   
+	
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+	
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.info:hover .infotext {
+	
+    visibility: visible;
+	
+}
+
+@media screen and (max-width: 25em) {
+	
+	#info_hover{
+	position: relative;
+    width: 600px;
+	height: 338px;
+	left: 190px;
+	top: 336px;
+    display: none;
+	
+}
+
+
+
+
+
+
+.info {
+    position: relative;
+    display: inline-block;
+	display: none;
+    
+}
+
+/* Tooltip text */
+.info .infotext {
+    visibility: hidden;
+    width: 140px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+	display: none;
+    
+   
+	
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+	
+	
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.info:hover .infotext {
+	
+    visibility: visible;
+	display: none;
+	
+}
+	
+	
+#info_container{
+	display: none;
+	position: absolute;
+	height: 338px;
+	width: 600px;
+	z-index: 2;
+	
+	
+	
+}
+}
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
